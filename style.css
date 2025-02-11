@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/*body {
+body {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -8,17 +8,6 @@
   background: hsl(0, 0%, 8%);
   font-family: "Figtree", serif;
   font-size: 14px;
-}*/
-@media (max-width: 375px) and (min-width: 1440px) {
-  body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: hsl(0, 0%, 8%);
-    font-family: "Figtree", serif;
-    font-size: 14px;
-  }
 }
 .container {
   max-width: 370px;

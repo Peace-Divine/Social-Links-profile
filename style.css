@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(0, 0%, 8%);
+  font-family: "Figtree", serif;
+  font-size: 14px;
+}*/
+@media (max-width: 375px) and (min-width: 1440px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(0, 0%, 8%);
+    font-family: "Figtree", serif;
+    font-size: 14px;
+  }
+}
+.container {
+  max-width: 370px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 12%);
+  width: 300px;
+  padding: 0 40px;
+  text-align: center;
+}
+.wrapper img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.wrapper h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.wrapper .location {
+  color: hsl(75, 94%, 57%);
+  margin-top: -10px;
+  font-weight: 700;
+}
+.description {
+  margin-top: 30px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+.social-buttons {
+  margin-top: 30px;
+}
+.social-buttons button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px transparent;
+  background-color: hsl(0, 0%, 20%);
+}
+.social-buttons button a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 600;
+}
+.social-buttons button a:hover {
+  text-decoration: underline;
+}
